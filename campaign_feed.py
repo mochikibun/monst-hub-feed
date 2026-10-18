@@ -47,15 +47,30 @@ def campaign(record):
 
 
 def export_feed(records, issues, now, directory=Path('public')):
-    """Any warning or empty result keeps last good bytes. Status has no raw errors."""
+    """Keep the last good snapshot; mark incomplete results as degraded."""
     directory = Path(directory)
     feed_path = directory / 'campaigns.json'
     status = 'degraded'
-    if not issues and records:
-        items = sorted((campaign(r) for r in records), key=lambda r: (r['start_date'], r['id']))
-        atomic_json(feed_path, {'schema_version': 1, 'generated_at': now.isoformat(),
-                              'timezone': 'Asia/Tokyo', 'date_precision': 'day', 'campaigns': items})
-        status = 'ok'
-    atomic_json(directory / 'status.json', {'schema_version': 1, 'checked_at': now.isoformat(),
-                'status': status, 'reason': None if status == 'ok' else 'incomplete_or_empty',
-                'has_snapshot': feed_path.exists()})
+
+    if records and (not issues or not feed_path.exists()):
+        items = sorted(
+            (campaign(r) for r in records),
+            key=lambda r: (r['start_date'], r['id'])
+        )
+        atomic_json(feed_path, {
+            'schema_version': 1,
+            'generated_at': now.isoformat(),
+            'timezone': 'Asia/Tokyo',
+            'date_precision': 'day',
+            'campaigns': items
+        })
+        if not issues:
+            status = 'ok'
+
+    atomic_json(directory / 'status.json', {
+        'schema_version': 1,
+        'checked_at': now.isoformat(),
+        'status': status,
+        'reason': None if status == 'ok' else 'incomplete_or_empty',
+        'has_snapshot': feed_path.exists()
+    })
