@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-18T12:33:56.950087+09:00",
+  "timezone": "Asia/Tokyo",
+  "date_precision": "day",
+  "campaigns": [
+    {
+      "id": "f45c7afee7c11853892c94aa",
+      "category": "archive",
+      "name": "書庫ポイント消費0",
+      "start_date": "2026-10-16",
+      "end_date": "2026-10-20",
+      "daily_attributes": [
+        {
+          "date": "2026-10-18",
+          "attribute": "火"
+        },
+        {
+          "date": "2026-10-19",
+          "attribute": "闇"
+        },
+        {
+          "date": "2026-10-20",
+          "attribute": "水"
+        }
+      ],
+      "source": {
+        "name": "公式",
+        "url": "https://www.monster-strike.com/news/20261015_3.html",
+        "official": true
+      }
+    },
+    {
+      "id": "4e54037ed500b887777a5716",
+      "category": "other",
+      "name": "学びのパワー出現率アップ",
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-26",
+      "daily_attributes": [],
+      "source": {
+        "name": "公式",
+        "url": "https://www.monster-strike.com/news/20261015_3.html",
+        "official": true
+      }
+    },
+    {
+      "id": "b46d3e8dd4a0bce22dc3ee9e",
+      "category": "normal",
+      "name": "獲得経験値2倍",
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-25",
+      "daily_attributes": [],
+      "source": {
+        "name": "公式",
+        "url": "https://www.monster-strike.com/news/20261015_3.html",
+        "official": true
+      }
+    },
+    {
+      "id": "234762d771bff7e7d59a397b",
+      "category": "temple",
+      "name": "ノーコン報酬 わくわくの実2個",
+      "start_date": "2026-10-19",
+      "end_date": "2026-10-20",
+      "daily_attributes": [],
+      "source": {
+        "name": "公式",
+        "url": "https://www.monster-strike.com/news/20261015_3.html",
+        "official": true
+      }
+    },
+    {
+      "id": "655220a9755f3b23140b4a38",
+      "category": "archive",
+      "name": "金卵排出率アップ",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-25",
+      "daily_attributes": [
+        {
+          "date": "2026-10-21",
+          "attribute": "闇"
+        },
+        {
+          "date": "2026-10-22",
+          "attribute": "火"
+        },
+        {
+          "date": "2026-10-23",
+          "attribute": "木"
+        },
+        {
+          "date": "2026-10-24",
+          "attribute": "光"
+        },
+        {
+          "date": "2026-10-25",
+          "attribute": "水"
+        }
+      ],
+      "source": {
+        "name": "公式",
+        "url": "https://www.monster-strike.com/news/20261015_3.html",
+        "official": true
+      }
+    },
+    {
+      "id": "9d106c2dabaf5038b7a399fa",
+      "category": "archive",
+      "name": "書庫の絶級クエスト：スペシャル報酬2倍",
+      "start_date": "2026-10-26",
+      "end_date": "2026-10-30",
+      "daily_attributes": [
+        {
+          "date": "2026-10-26",
+          "attribute": "光"
+        },
+        {
+          "date": "2026-10-27",
+          "attribute": "火"
+        },
+        {
+          "date": "2026-10-28",
+          "attribute": "水"
+        },
+        {
+          "date": "2026-10-29",
+          "attribute": "木"
+        },
+        {
+          "date": "2026-10-30",
+          "attribute": "闇"
+        }
+      ],
+      "source": {
+        "name": "公式",
+        "url": "https://www.monster-strike.com/news/20261015_3.html",
+        "official": true
+      }
+    },
+    {
+      "id": "bc4ed9b59feaf87c626a7314",
+      "category": "temple",
+      "name": "ノーコン報酬 わくわくの実2個",
+      "start_date": "2026-10-26",
+      "end_date": "2026-10-27",
+      "daily_attributes": [],
+      "source": {
+        "name": "公式",
+        "url": "https://www.monster-strike.com/news/20261015_3.html",
+        "official": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-18T12:33:56.950087+09:00",
+  "status": "degraded",
+  "reason": "incomplete_or_empty",
+  "has_snapshot": true
+}
