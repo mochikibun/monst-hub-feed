@@ -4,16 +4,22 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: monst-hub-feed
+  cancel-in-progress: false
 
 jobs:
-  test:
+  feed:
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -23,10 +29,20 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run tests
-        run: python -m unittest discover -s tests -v
+      - name: Check Python syntax
+        run: python -m compileall -q bot.py campaign_feed.py hub_feed.py
 
-      - name: Check campaign feed
-        env:
-          MODE: check
-        run: python bot.py
+      - name: Generate MONST HUB feed
+        run: python hub_feed.py
+
+      - name: Save public JSON
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/campaigns.json public/status.json
+          if git diff --cached --quiet; then
+            echo "No changes to save"
+          else
+            git commit -m "Update MONST HUB campaign feed"
+            git push
+          fi
