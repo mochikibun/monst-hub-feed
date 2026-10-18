@@ -47,12 +47,20 @@ def campaign(record):
 
 
 def export_feed(records, issues, now, directory=Path('public')):
-    """Keep the last good snapshot; mark incomplete results as degraded."""
+    """Publish verified records; retain snapshot on collection failure."""
     directory = Path(directory)
     feed_path = directory / 'campaigns.json'
-    status = 'degraded'
 
-    if records and (not issues or not feed_path.exists()):
+    fatal = any(
+        issue in ('gather_failed', 'export_failed')
+        or '一覧の取得失敗' in issue
+        or '記事取得失敗' in issue
+        or '記事リンクを抽出できません' in issue
+        for issue in issues
+    )
+
+    status = 'degraded'
+    if records and not fatal:
         items = sorted(
             (campaign(r) for r in records),
             key=lambda r: (r['start_date'], r['id'])
@@ -64,8 +72,7 @@ def export_feed(records, issues, now, directory=Path('public')):
             'date_precision': 'day',
             'campaigns': items
         })
-        if not issues:
-            status = 'ok'
+        status = 'degraded' if issues else 'ok'
 
     atomic_json(directory / 'status.json', {
         'schema_version': 1,
