@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MONST HUB feed status v1",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema_version", "checked_at", "status", "reason", "has_snapshot"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "checked_at": {"type": "string", "format": "date-time"},
+    "status": {"enum": ["ok", "degraded"]},
+    "reason": {"enum": [null, "incomplete_or_empty"]},
+    "has_snapshot": {"type": "boolean"}
+  },
+  "allOf": [{
+    "if": {"properties": {"status": {"const": "ok"}}},
+    "then": {"properties": {"reason": {"const": null}, "has_snapshot": {"const": true}}},
+    "else": {"properties": {"reason": {"const": "incomplete_or_empty"}}}
+  }]
+}

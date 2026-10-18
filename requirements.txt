@@ -1,0 +1,4 @@
+# 既存リポジトリにrequirements.txtがある場合は既存内容を維持してください。
+requests>=2.31,<3
+beautifulsoup4>=4.12,<5
+tzdata>=2024.1
