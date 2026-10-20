@@ -1,27 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T06:26:19.881627+09:00",
+  "generated_at": "2026-10-21T06:27:42.225840+09:00",
   "timezone": "Asia/Tokyo",
   "date_precision": "day",
   "campaigns": [
-    {
-      "id": "f45c7afee7c11853892c94aa",
-      "category": "archive",
-      "name": "書庫ポイント消費0",
-      "start_date": "2026-10-16",
-      "end_date": "2026-10-20",
-      "daily_attributes": [
-        {
-          "date": "2026-10-20",
-          "attribute": "水"
-        }
-      ],
-      "source": {
-        "name": "公式",
-        "url": "https://www.monster-strike.com/news/20261015_3.html",
-        "official": true
-      }
-    },
     {
       "id": "4e54037ed500b887777a5716",
       "category": "other",
@@ -41,19 +23,6 @@
       "name": "獲得経験値2倍",
       "start_date": "2026-10-17",
       "end_date": "2026-10-25",
-      "daily_attributes": [],
-      "source": {
-        "name": "公式",
-        "url": "https://www.monster-strike.com/news/20261015_3.html",
-        "official": true
-      }
-    },
-    {
-      "id": "234762d771bff7e7d59a397b",
-      "category": "temple",
-      "name": "ノーコン報酬 わくわくの実2個",
-      "start_date": "2026-10-19",
-      "end_date": "2026-10-20",
       "daily_attributes": [],
       "source": {
         "name": "公式",
