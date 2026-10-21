@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T06:27:42.225840+09:00",
+  "generated_at": "2026-10-22T06:27:40.586970+09:00",
   "timezone": "Asia/Tokyo",
   "date_precision": "day",
   "campaigns": [
@@ -37,10 +37,6 @@
       "start_date": "2026-10-21",
       "end_date": "2026-10-25",
       "daily_attributes": [
-        {
-          "date": "2026-10-21",
-          "attribute": "闇"
-        },
         {
           "date": "2026-10-22",
           "attribute": "火"
