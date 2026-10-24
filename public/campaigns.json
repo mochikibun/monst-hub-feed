@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T06:26:30.325267+09:00",
+  "generated_at": "2026-10-25T06:22:57.411947+09:00",
   "timezone": "Asia/Tokyo",
   "date_precision": "day",
   "campaigns": [
@@ -37,10 +37,6 @@
       "start_date": "2026-10-21",
       "end_date": "2026-10-25",
       "daily_attributes": [
-        {
-          "date": "2026-10-24",
-          "attribute": "光"
-        },
         {
           "date": "2026-10-25",
           "attribute": "水"
