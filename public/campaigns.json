@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T06:22:57.411947+09:00",
+  "generated_at": "2026-10-26T06:22:33.143719+09:00",
   "timezone": "Asia/Tokyo",
   "date_precision": "day",
   "campaigns": [
@@ -11,37 +11,6 @@
       "start_date": "2026-10-17",
       "end_date": "2026-10-26",
       "daily_attributes": [],
-      "source": {
-        "name": "公式",
-        "url": "https://www.monster-strike.com/news/20261015_3.html",
-        "official": true
-      }
-    },
-    {
-      "id": "b46d3e8dd4a0bce22dc3ee9e",
-      "category": "normal",
-      "name": "獲得経験値2倍",
-      "start_date": "2026-10-17",
-      "end_date": "2026-10-25",
-      "daily_attributes": [],
-      "source": {
-        "name": "公式",
-        "url": "https://www.monster-strike.com/news/20261015_3.html",
-        "official": true
-      }
-    },
-    {
-      "id": "655220a9755f3b23140b4a38",
-      "category": "archive",
-      "name": "金卵排出率アップ",
-      "start_date": "2026-10-21",
-      "end_date": "2026-10-25",
-      "daily_attributes": [
-        {
-          "date": "2026-10-25",
-          "attribute": "水"
-        }
-      ],
       "source": {
         "name": "公式",
         "url": "https://www.monster-strike.com/news/20261015_3.html",
