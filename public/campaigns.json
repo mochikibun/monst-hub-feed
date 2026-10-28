@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T06:29:54.338559+09:00",
+  "generated_at": "2026-10-29T06:33:33.755995+09:00",
   "timezone": "Asia/Tokyo",
   "date_precision": "day",
   "campaigns": [
@@ -11,10 +11,6 @@
       "start_date": "2026-10-26",
       "end_date": "2026-10-30",
       "daily_attributes": [
-        {
-          "date": "2026-10-28",
-          "attribute": "水"
-        },
         {
           "date": "2026-10-29",
           "attribute": "木"
