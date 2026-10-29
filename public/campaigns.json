@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T06:33:33.755995+09:00",
+  "generated_at": "2026-10-30T06:35:36.210923+09:00",
   "timezone": "Asia/Tokyo",
   "date_precision": "day",
   "campaigns": [
@@ -12,10 +12,6 @@
       "end_date": "2026-10-30",
       "daily_attributes": [
         {
-          "date": "2026-10-29",
-          "attribute": "木"
-        },
-        {
           "date": "2026-10-30",
           "attribute": "闇"
         }
@@ -23,6 +19,32 @@
       "source": {
         "name": "公式",
         "url": "https://www.monster-strike.com/news/20261015_3.html",
+        "official": true
+      }
+    },
+    {
+      "id": "1addd26d2bb5a1847034a26c",
+      "category": "temple",
+      "name": "英雄の神殿キャンペーン",
+      "start_date": "2026-10-30",
+      "end_date": "2026-11-04",
+      "daily_attributes": [],
+      "source": {
+        "name": "公式",
+        "url": "https://www.monster-strike.com/news/20261029_1.html",
+        "official": true
+      }
+    },
+    {
+      "id": "3d7be01519fd9b97322f6255",
+      "category": "temple",
+      "name": "ノーコン報酬 わくわくの実2個",
+      "start_date": "2026-10-30",
+      "end_date": "2026-11-04",
+      "daily_attributes": [],
+      "source": {
+        "name": "公式",
+        "url": "https://www.monster-strike.com/news/20261029_1.html",
         "official": true
       }
     }
