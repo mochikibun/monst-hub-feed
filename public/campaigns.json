@@ -1,27 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T06:35:36.210923+09:00",
+  "generated_at": "2026-10-31T06:31:25.418262+09:00",
   "timezone": "Asia/Tokyo",
   "date_precision": "day",
   "campaigns": [
-    {
-      "id": "9d106c2dabaf5038b7a399fa",
-      "category": "archive",
-      "name": "書庫の絶級クエスト：スペシャル報酬2倍",
-      "start_date": "2026-10-26",
-      "end_date": "2026-10-30",
-      "daily_attributes": [
-        {
-          "date": "2026-10-30",
-          "attribute": "闇"
-        }
-      ],
-      "source": {
-        "name": "公式",
-        "url": "https://www.monster-strike.com/news/20261015_3.html",
-        "official": true
-      }
-    },
     {
       "id": "1addd26d2bb5a1847034a26c",
       "category": "temple",
@@ -45,6 +27,19 @@
       "source": {
         "name": "公式",
         "url": "https://www.monster-strike.com/news/20261029_1.html",
+        "official": true
+      }
+    },
+    {
+      "id": "a01ce6c34725b8c45676d94a",
+      "category": "temple",
+      "name": "ノーコン報酬 わくわくの実2個",
+      "start_date": "2026-11-10",
+      "end_date": "2026-11-11",
+      "daily_attributes": [],
+      "source": {
+        "name": "公式",
+        "url": "https://www.monster-strike.com/news/20261030_2.html",
         "official": true
       }
     }
