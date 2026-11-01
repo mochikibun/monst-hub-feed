@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_at": "2026-11-01T06:30:07.952827+09:00",
+  "checked_at": "2026-11-02T06:30:58.690012+09:00",
   "status": "degraded",
   "reason": "incomplete_or_empty",
   "has_snapshot": true
