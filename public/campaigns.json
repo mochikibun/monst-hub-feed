@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T11:48:27.316589+09:00",
+  "generated_at": "2026-11-19T11:25:32.467748+09:00",
   "timezone": "Asia/Tokyo",
   "date_precision": "day",
   "campaigns": [
@@ -23,19 +23,6 @@
       "name": "学びのパワー出現率アップ",
       "start_date": "2026-11-15",
       "end_date": "2026-11-20",
-      "daily_attributes": [],
-      "source": {
-        "name": "公式",
-        "url": "https://www.monster-strike.com/news/20261112_3.html",
-        "official": true
-      }
-    },
-    {
-      "id": "1fdf7b22c685820555f59e36",
-      "category": "temple",
-      "name": "ノーコン報酬 わくわくの実2個",
-      "start_date": "2026-11-17",
-      "end_date": "2026-11-18",
       "daily_attributes": [],
       "source": {
         "name": "公式",
