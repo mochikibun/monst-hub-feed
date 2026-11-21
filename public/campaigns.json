@@ -1,22 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T11:10:00.741976+09:00",
+  "generated_at": "2026-11-21T11:02:51.644222+09:00",
   "timezone": "Asia/Tokyo",
   "date_precision": "day",
   "campaigns": [
-    {
-      "id": "edf099aa045fe930262f2188",
-      "category": "other",
-      "name": "学びのパワー出現率アップ",
-      "start_date": "2026-11-15",
-      "end_date": "2026-11-20",
-      "daily_attributes": [],
-      "source": {
-        "name": "公式",
-        "url": "https://www.monster-strike.com/news/20261112_3.html",
-        "official": true
-      }
-    },
     {
       "id": "365b4513aa720151f15e0175",
       "category": "archive",
@@ -24,10 +11,6 @@
       "start_date": "2026-11-19",
       "end_date": "2026-11-23",
       "daily_attributes": [
-        {
-          "date": "2026-11-20",
-          "attribute": "光"
-        },
         {
           "date": "2026-11-21",
           "attribute": "闇"
