@@ -1,27 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T10:28:34.946084+09:00",
+  "generated_at": "2026-11-24T14:12:14.637178+09:00",
   "timezone": "Asia/Tokyo",
   "date_precision": "day",
   "campaigns": [
-    {
-      "id": "365b4513aa720151f15e0175",
-      "category": "archive",
-      "name": "金卵排出率アップ",
-      "start_date": "2026-11-19",
-      "end_date": "2026-11-23",
-      "daily_attributes": [
-        {
-          "date": "2026-11-23",
-          "attribute": "水"
-        }
-      ],
-      "source": {
-        "name": "公式",
-        "url": "https://www.monster-strike.com/news/20261112_3.html",
-        "official": true
-      }
-    },
     {
       "id": "5bca1933161cc7473cd1fb84",
       "category": "temple",
