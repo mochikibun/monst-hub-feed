@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T12:26:49.798714+09:00",
+  "generated_at": "2026-11-27T12:33:34.379134+09:00",
   "timezone": "Asia/Tokyo",
   "date_precision": "day",
   "campaigns": [
@@ -11,10 +11,6 @@
       "start_date": "2026-11-24",
       "end_date": "2026-11-28",
       "daily_attributes": [
-        {
-          "date": "2026-11-26",
-          "attribute": "火"
-        },
         {
           "date": "2026-11-27",
           "attribute": "光"
@@ -27,6 +23,58 @@
       "source": {
         "name": "公式",
         "url": "https://www.monster-strike.com/news/20261112_3.html",
+        "official": true
+      }
+    },
+    {
+      "id": "0607843218989b59331c2665",
+      "category": "normal",
+      "name": "獲得経験値2倍",
+      "start_date": "2026-12-02",
+      "end_date": "2026-12-08",
+      "daily_attributes": [],
+      "source": {
+        "name": "公式",
+        "url": "https://www.monster-strike.com/news/20261126_2.html",
+        "official": true
+      }
+    },
+    {
+      "id": "9622ab76dcf9bda88cd3fad4",
+      "category": "other",
+      "name": "学びのパワー出現率アップ",
+      "start_date": "2026-12-02",
+      "end_date": "2026-12-09",
+      "daily_attributes": [],
+      "source": {
+        "name": "公式",
+        "url": "https://www.monster-strike.com/news/20261126_2.html",
+        "official": true
+      }
+    },
+    {
+      "id": "48793eaa646be872218e3482",
+      "category": "temple",
+      "name": "ノーコン報酬 わくわくの実2個",
+      "start_date": "2026-12-07",
+      "end_date": "2026-12-08",
+      "daily_attributes": [],
+      "source": {
+        "name": "公式",
+        "url": "https://www.monster-strike.com/news/20261126_2.html",
+        "official": true
+      }
+    },
+    {
+      "id": "773dc232d5579450212e7306",
+      "category": "temple",
+      "name": "ノーコン報酬 わくわくの実2個",
+      "start_date": "2026-12-14",
+      "end_date": "2026-12-15",
+      "daily_attributes": [],
+      "source": {
+        "name": "公式",
+        "url": "https://www.monster-strike.com/news/20261126_2.html",
         "official": true
       }
     }
